@@ -1,0 +1,116 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    }
+
+    /* Corpo da Página */
+    body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    padding: 20px;
+    }
+
+
+  /* Ajuste da Imagem de Fundo */
+
+  .imagem img {
+ position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; /* Equivalente ao background-size: cover para tags img */
+  z-index: -1;     
+  }
+
+
+
+    /* Caixa de Login - Com todas as Informações */
+    .login-card {
+    width: 90%;
+    max-width: 400px;
+    padding: 40px 30px;
+    background-color: rgba(0, 0, 0, 0.678);
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);   
+    }
+
+
+    /* Título */
+
+    h1 {
+    font-family: 'Lucida Sans' , 'Lucida Sans Regular' , 'Lucida Grande' , Lucida Sans Unicode , Geneva, Verdana, sans-serif;    
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+    }
+
+
+    /* Campos de entrada - um em baixo do outro */
+
+    .menu input {
+    display: block;
+    width: 100%;
+    max-width: 340px; 
+    margin: 0 auto 15px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;   
+    }
+
+
+    /* Caixa Lembrar-me */
+    .caixa {
+    text-align: center;
+    margin-bottom: 25px;    
+    }
+
+
+    .caixa label {
+    color: #fff;
+    cursor: pointer;    
+    }
+
+
+    /*Texto lembrar checbox */
+    .lembrar {
+    position: relative; 
+    top: -30px;
+    left: -3%;   
+    }
+
+    
+   .caixa input  {
+    position: relative;
+    right: 20%;
+   } 
+    
+    
+    
+    
+    /* Botão entrar - alinhado com os campos */
+
+    
+    button {
+    position: relative;
+    top: -20px;
+    width: 50%;
+    max-width: 340px;  
+    margin: 0 auto;
+    display: block;
+    padding: 12px;
+    background-color: #2c5aa0; 
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+    text-decoration: none;
+  }
+   button:hover {
+   background-color: #1a3b6b; 
+   }
