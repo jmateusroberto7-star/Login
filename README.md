@@ -16,4 +16,19 @@ Inferface visual
  
     ## Aprendizados obtidos:
     - Como estruturar um formulário de Login em HTML
+    - Como capturar e verificar informações usando o Java Script
+    - Como navegar entre páginas através de código
+    - Importância da experiência do usuário de feedback claro
+    - Todos os componentes foram organizados e integrados para funcionar de forma coesa e intuitiva.
+      
+    #Dica:
+    - Para conseguir entrar no menu de Login use as seguintes Informações
+    - Email:teste@email.com
+    - Senha: 123456
+    - Feito da forma correta você vai ser direcionado para essa Página do GitHub 
+
+      ## Ator
+      Esse projeto foi criador por Mateus Roberto da Silva
+      Data 30 de Outubro de 2026
+
       
